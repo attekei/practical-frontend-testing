@@ -4,7 +4,7 @@ Prepared for a HelsinkiJS meetup.
 ## The super general section
 ### What I mean with ”frontend testing”?
 * A human perspective
-	* Verifying that a user sees what you expect him to see and is able to achieve his or her goals within a reasonable timeframe
+	* Making sure that a user sees what you expect him to see and is able to achieve his or her goals within a reasonable timeframe
 * A developer jargon pespective
 	* Functional testing: verifying that user-facing parts of your app behave as expected
 	* Performance testing: detecting performance bottlenecks
