@@ -1,7 +1,7 @@
 # Practical and fast frontend testing
 Prepared for a HelsinkiJS meetup.
 
-## The super general section (not restricted to React/Redux)
+## The super general section
 ### What I mean with ”frontend testing”?
 * A human perspective
 	* Verifying that a user sees what you expect him to see and is able to achieve his or her goals within a reasonable timeframe
@@ -30,7 +30,6 @@ Prepared for a HelsinkiJS meetup.
 * You can write a script that wraps the test runner and initializes the backend before tests and tears it down afterwards
 
 ## How to test
-…for those dinosaurs who are still using those old-fashioned libs.
 
 ### Different ways of testing
 * Tests that use a simulated implementation of DOM
@@ -58,6 +57,9 @@ Prepared for a HelsinkiJS meetup.
 
 
 ## The Metabase approach to frontend testing
+
+Note that our approach is somewhat specific to React and Redux.
+
 ### 1. Use Jest for simulating a complete app
 * Use Jest instead of a browser testing framework
 * If possible, render the complete app (including the global app state) instead of individual React components
