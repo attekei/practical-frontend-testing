@@ -77,12 +77,18 @@ expect(
     .length
 ).toBe(1)
 ```
+### 3. Create a new Redux store for each test
+* This is a neat way to keep your tests isolated from each other.
+
+_this section is still incomplete_
 
 ### 3. Watch for changes in Redux store
+* Between interactions you want to wait for the app to reach a desired state. This is convenient to do by waiting for Redux actions to complete (this is not standard Redux, see subsection 5 for implementation advice).
 
+_this section is still incomplete_
 
 ### 4. If verifying the app state from UI is hard, check the app state directly from a Redux store
-* 
+* It's sometimes helpful to confirm that the app state is in a desired state instead of just checking that UI looks correct. You should check the state like this:
 
 ```
 // Should have visualization type set to Pin map
@@ -90,11 +96,12 @@ const card = getCard(store.getState())
 expect(card.display).toBe("map")
 ```
 
-### How to do this all?
-You have to create a modified version of Redux store in order to use it efficiently in test environment and to watch for changes in Redux store. See 
+_this section is still incomplete_
 
-### Additional reading (stolen from Hacker News)
-https://blog.nelhage.com/2016/12/how-i-test/
+### 5. How to do this all?
+* You have to create a modified version of Redux store in order to use it efficiently in test environment and to watch for changes in Redux store. Sadly there aren't good open source libraries that do that for you yet. See how this currently is done in Metabase codebase:
+https://github.com/metabase/metabase/blob/master/frontend/test/__support__/integrated_tests.js
+
 
 ## See more
 All presentation material is available in https://github.com/attekei/practical-frontend-testing
