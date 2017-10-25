@@ -29,7 +29,7 @@ Prepared for a HelsinkiJS meetup.
 * It definitely does to some degree, but for us it has been a worthwhile tradeoff
 * You can write a script that wraps the test runner and initializes the backend before tests and tears it down afterwards
 
-## How to implement frontend tests
+## How to implement frontend tests in React/Redux app
 …for those dinosaurs who are still using those old-fashioned libs.
 
 ### Different ways of testing
@@ -44,7 +44,6 @@ Prepared for a HelsinkiJS meetup.
 	* Popular testing toolboxes: Chromeless, PhantomJS, NightmareJS
 
 ### Real browser tests are hard
-/disclaimer: this is strongly opinionated/
 
 * They are pretty cumbersome to write and modify
 	* Writing small, atomic test cases is hard because you can’t easily initialize the environment to a desired state
