@@ -73,9 +73,9 @@ Example:
 ```
 expect(
   app.find(NewQueryOption)
-    .filterWhere((component) => component.prop('title') === "Metrics").length)
-    .toBe(1)
-)
+    .filterWhere((component) => component.prop('title') === "Metrics")
+    .length
+).toBe(1)
 ```
 
 ### 3. Watch for changes in Redux store
