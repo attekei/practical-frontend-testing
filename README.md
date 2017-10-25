@@ -21,7 +21,6 @@ Prepared for a HelsinkiJS meetup.
 * The more frontend tests you have, the lower is the barrier to write more
 
 ### How to scope your tests?
-* A visual demonstration would probably make sense here
 * Try to match your tests with the reality of a user; obscure unit tests aren’t often very useful
 * If you are time-constrained, write tests that cover as much as possible at once (i.e. the frontend UI interactions, frontend & backend business logic, database interactions)
 
