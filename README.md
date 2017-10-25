@@ -104,7 +104,6 @@ https://github.com/metabase/metabase/blob/master/frontend/test/__support__/integ
 
 
 ## See more
-All presentation material is available in https://github.com/attekei/practical-frontend-testing
 
 Compare this old Selenium test case:
 https://github.com/metabase/metabase/blob/v0.24.0/frontend/test/e2e/dashboards/dashboards.spec.js
