@@ -68,7 +68,15 @@ Note that our approach is somewhat specific to React and Redux.
 
 ### 2. Refer to React components instead of using CSS selectors
 * Use Enzyme for querying elements – harness the full power of your React component hierarchy instead of writing plain CSS selectors!
-`app.find(QueryBuilder).find(EntityMenu)`
+
+Example:
+```
+expect(
+  app.find(NewQueryOption)
+    .filterWhere((component) => component.prop('title') === "Metrics").length)
+    .toBe(1)
+)
+```
 
 ### 3. Watch for changes in Redux store
 
