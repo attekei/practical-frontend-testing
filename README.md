@@ -29,7 +29,7 @@ Prepared for a HelsinkiJS meetup.
 * It definitely does to some degree, but for us it has been a worthwhile tradeoff
 * You can write a script that wraps the test runner and initializes the backend before tests and tears it down afterwards
 
-## How to implement frontend tests in React/Redux app
+## How to test
 …for those dinosaurs who are still using those old-fashioned libs.
 
 ### Different ways of testing
