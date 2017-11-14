@@ -9,9 +9,7 @@ Prepared for a HelsinkiJS meetup.
 
 This didn't fit in to the 20min presentation itself although I'm sure its useful for many folks who use React/Redux!
 
-### How to test
-
-#### Different ways of testing
+### Different ways of testing
 * Tests that use a simulated implementation of DOM
 	* Everything runs in a NodeJS environment
 	* Doesn’t support all browser fanciness (like HTML5 canvas)
@@ -22,7 +20,7 @@ This didn't fit in to the 20min presentation itself although I'm sure its useful
 	* All web APIs available
 	* Popular testing toolboxes: Chromeless, PhantomJS, NightmareJS
 
-#### Real browser tests are hard
+### Real browser tests are hard
 
 * They are pretty cumbersome to write and modify
 	* Writing small, atomic test cases is hard because you can’t easily initialize the environment to a desired state
