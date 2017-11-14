@@ -7,7 +7,7 @@ Prepared for a HelsinkiJS meetup.
 
 ## The Metabase approach to frontend testing
 
-I explain our approach very briefly – browse [Metabase test source code](https://github.com/metabase/metabase/blob/master/frontend/test/) for seeing our implementation in detail.
+This is something I didn't cover in the presentation itself. I explain our approach very briefly – browse [Metabase test source code](https://github.com/metabase/metabase/blob/master/frontend/test/) for seeing our implementation in detail.
 
 ### 1. Use Jest for simulating a complete app
 * Use Jest instead of a browser testing framework
