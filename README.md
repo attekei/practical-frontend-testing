@@ -7,7 +7,7 @@ Download the slides: [PDF](https://github.com/attekei/practical-frontend-testing
 
 ## Appendix: Technical implementation
 
-This didn't fit in to the 20min presentation itself although I'm sure its useful for many folks who use React/Redux!
+This didn't fit in to the 20min presentation itself although I'm sure that it is useful for many folks who use React/Redux!
 
 ### Different ways of testing
 * Tests that use a simulated implementation of DOM
