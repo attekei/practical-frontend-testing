@@ -3,7 +3,7 @@ Prepared for a HelsinkiJS meetup.
 
 ## Presentation
 
-
+Download the slides: [PDF](https://github.com/attekei/practical-frontend-testing/blob/master/frontend-testing.pdf?raw=true) / [Keynote](https://github.com/attekei/practical-frontend-testing/blob/master/frontend-testing.key?raw=true)
 
 ## Appendix: Technical implementation
 
